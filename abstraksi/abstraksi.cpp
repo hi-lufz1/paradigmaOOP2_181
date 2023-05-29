@@ -17,3 +17,11 @@ public:
 		cout << "y = " << y << endl;
 	}
 };
+
+int main() {
+	AbstraksiKlas ak;
+	ak.setXY("Yogyaakrta", "Kmapus");
+	ak.display();
+
+	return 0;
+}
